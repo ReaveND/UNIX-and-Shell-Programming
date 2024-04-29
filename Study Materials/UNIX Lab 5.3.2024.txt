@@ -1,0 +1,29 @@
+drwxr - directory | read | write | 
+user - read | write | execute
+group - read | 
+
+Directory Name - drwxr-xr-x (permissions) | default permission - 755
+echo [text_here] > [filename] - makes new file with the given user input
+
+cat file1.txt >> file2.txt - Appends content of file 1 into file 2.
+cat file1.txt file2.txt >> file3.txt - Stores contents of file 1 and file 2 in file 3.
+
+echo * - Functions same as ls -l.
+echo *.txt - Shows all the files of (txt) file extension.
+mv - This is used to rename file, The old file gets removed. Syntax - mx [old_file] [new_file].
+
+Q. How to move a file to a different directory?
+Q. How to move multiple files? - mv *[extension_name]{for extension name} [directory_name]
+
+cp - Copy file(s) from source to target.
+Syntax - cp [old_file] [new_file]
+
+cat [file1] [file2] [file3]...[file_n] - For multiple files.
+
+cat -n [file_names] - for viewing contents of files in new lines.
+
+Copy a file into another location - 
+	cp [file_name] [directory_name].
+	
+Copy a directory into another directory -
+	cp -r [existing_directory] [new_directory]
